@@ -17,7 +17,6 @@ const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.7;
 `;
 
 const Title = styled.h1`
@@ -30,9 +29,7 @@ const Title = styled.h1`
     color: black;
     padding: 10px;
     font-size: 40px;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
+    font-weight: lighter;
 
     @media screen and (max-width: 740px) {
         font-size: 30px;
