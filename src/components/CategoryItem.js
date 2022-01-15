@@ -6,6 +6,7 @@ const Container = styled.div`
     margin: 5px;
     height: 70vh;
     position: relative;
+    cursor: pointer;
 
     @media screen and (max-width: 740px) {
         height: 50vh;
@@ -16,6 +17,7 @@ const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.6;
 `;
 
 const Title = styled.h1`
@@ -29,7 +31,8 @@ const Title = styled.h1`
     padding: 10px;
     font-size: 40px;
     font-weight: bold;
-    font-style: italic;
+    justify-content: center;
+    align-items: center;
 
     @media screen and (max-width: 740px) {
         font-size: 30px;

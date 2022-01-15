@@ -24,7 +24,7 @@ const Title = styled.h1`
     justify-content: center;
     flex: 1;
     display: flex;
-    font-weight: bold;
+    font-weight: lighter;
 
     @media screen and (max-width: 740px) {
         font-size: 20px;
@@ -34,7 +34,7 @@ const Title = styled.h1`
 const Trending = () => {
     return (
         <Container>
-            <Heading>Featured</Heading>
+            <Heading>Trending</Heading>
             <Image src ="https://hips.hearstapps.com/bpc.h-cdn.co/assets/16/11/1600x800/landscape-1458242073-new-nike-hyperadapt-shoes.jpg?resize=1200:*" />
             <Title>
                 Nike HyperAdapt 1.0

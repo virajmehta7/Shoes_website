@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Container = styled.div`
-    height: 85vh;
     padding: 20px;
     position: relative;
 `;
@@ -10,7 +9,7 @@ const Container = styled.div`
 const Image = styled.img`
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 `;
 
 const Title = styled.h1`
@@ -28,7 +27,7 @@ const Title = styled.h1`
 
 const Button = styled.button`
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -44,7 +43,7 @@ const Button = styled.button`
 
     @media screen and (max-width: 740px) {
         font-size: 25px;
-        padding: 20px 30px;
+        padding: 10px;
     }
 `;
 
