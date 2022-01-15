@@ -19,6 +19,7 @@ const Title = styled.h1`
     flex: 1;
     display: flex;
     padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
 
     @media screen and (max-width: 740px) {
         font-size: 20px;
@@ -27,7 +28,7 @@ const Title = styled.h1`
 
 const Button = styled.button`
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;

@@ -10,6 +10,7 @@ const Heading = styled.h5`
     font-size: 30px;
     color: black;
     padding-top: 15px;
+    font-weight: lighter;
 `;
 
 const Image = styled.img`
@@ -19,12 +20,12 @@ const Image = styled.img`
 `;
 
 const Title = styled.h1`
-    font-size: 30px;
+    font-size: 34px;
     color: black;
     justify-content: center;
     flex: 1;
     display: flex;
-    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
 
     @media screen and (max-width: 740px) {
         font-size: 20px;
