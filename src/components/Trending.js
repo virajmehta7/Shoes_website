@@ -10,6 +10,7 @@ const Heading = styled.h5`
     font-size: 30px;
     color: black;
     padding-top: 15px;
+    padding-bottom: 10px;
     font-weight: lighter;
 `;
 
